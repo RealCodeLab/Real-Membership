@@ -1,0 +1,21 @@
+{
+  "name": "real-membership",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "require": {
+    "php": ">= 5.6",
+    "twig/twig": "~1.0",
+    "pimple/pimple": "~3.0",
+    "alledia/wordpress-plugin-builder": "dev-development"
+  },
+  "autoload": {
+    "psr-4": {
+      "Real_Membership\\": "core/"
+    }
+  }
+}
